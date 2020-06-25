@@ -17,7 +17,7 @@ namespace TwisterSpinner
             exit = Console.ReadLine();
             while (exitCode == false)
             {
-                Console.WriteLine($"{bodyParts[r.Next(0, 3)]} on {colors[r.Next(0, 3)]}!");
+                Console.WriteLine($"{bodyParts[r.Next(0, 4)]} on {colors[r.Next(0, 4)]}!");
                 exit = Console.ReadLine();
                 if (exit == "exit") { exitCode = true; }
             } 
