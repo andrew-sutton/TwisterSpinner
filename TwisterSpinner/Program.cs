@@ -15,7 +15,7 @@ namespace TwisterSpinner
             Console.WriteLine("Welcome to the Twister Spinner!");
             Console.WriteLine("Type \"exit\" to exit or hit any key to continue");
             exit = Console.ReadLine();
-            while (exitCode == false)
+            while (!exitCode)
             {
                 Console.WriteLine($"{bodyParts[r.Next(0, 4)]} on {colors[r.Next(0, 4)]}!");
                 exit = Console.ReadLine();
